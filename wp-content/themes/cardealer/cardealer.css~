@@ -1,0 +1,402 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  text-decoration: none;
+}
+
+input, textarea {
+  outline:none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+       justify-content: center;
+}
+
+article {
+  width: 1000px;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+       justify-content: center;
+}
+
+header #logo-contact {
+  width: 850px;
+  height: 70px;
+}
+
+#logo-contact #logo {
+  width: 400px;
+  height: 60px;
+  float: left;
+}
+
+#logo p {
+  font-size: 28px;
+}
+
+#logo p span {
+  font-size: 65px;
+  font-weight: bold;
+  color: #86AB25;
+}
+
+#logo-contact #contact {
+  width: 300px;
+  height: inherit;
+  float: right;
+  margin-top: 5px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#contact p {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: #86ab25;
+}
+
+#contact p:first-child {
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: normal;
+  color: #000;
+}
+
+#contact p span:first-child {
+  font-size: 25px;
+}
+
+#contact p span:nth-child(2) {
+  font-size: 23px;
+}
+
+#contact p span:nth-child(3) {
+  font-size: 23px;
+}
+
+#contact p span:nth-child(4) {
+  font-size: 23px;
+  margin-top: 2px;
+}
+
+#contact p span:nth-child(5) {
+  font-size: 25px;
+}
+
+#contact p:last-child {
+  font-size: 11px;
+  font-weight: normal;
+  color: #a9a9a9;
+}
+
+nav {
+  margin: 0 auto;
+  background: #1f1f1f;
+  width: 1000px;
+  height: 55px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+       justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+       align-items: center;
+}
+
+nav span.menu {
+  margin-left: 10px;
+}
+
+nav span.menu a {
+  height: 55px;
+  padding: 20px 25px;
+  margin-left: -.36em;
+  border-right: 1px solid #bfc1d7;
+  font-size: 13px;
+  color: #fff;
+}
+
+nav span.menu a:active {
+  background: -webkit-linear-gradient(bottom, #fff 0%, #fff 15%, #86ab25 15%, #86ab25 100%);
+  background: linear-gradient(to top, #fff 0%, #fff 15%, #86ab25 15%, #86ab25 100%);
+}
+
+nav span.menu a:first-child {
+  border-right: 1px solid #bfc1d7;
+  border-left: 1px solid #bfc1d7;
+}
+
+nav span.search-form {
+  background: #fff;
+  width: 190px;
+  height: 40px;
+  margin-left: 170px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+       justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+       align-items: center;
+}
+
+nav span.search-form input {
+  height: 40px;
+}
+
+nav span.search-form #search-icon {
+  background: #86AB25;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+section {
+  background: -webkit-linear-gradient(bottom, #fff 0%, #fff 35%, #a5a5a5 100%);
+  background: linear-gradient(to top, #fff 0%, #fff 35%, #a5a5a5 100%);
+  width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+       justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+       align-items: center;
+}
+
+section #present {
+  width: 1000px;
+  height: 400px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+       justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+       align-items: center;
+}
+
+#present img {
+  width: 840px;
+  height: 400px;
+  margin-top: 60px;
+  margin-right: -470px;
+  box-shadow: 0 0 10px #bebebe;
+  position: relative;
+}
+
+#present div {
+  background: rgba(0,0,0,.6);
+  width: 350px;
+  height: 135px;
+  position: relative;
+    left: -340px;
+    bottom: -135px;
+}
+
+#present #pages {
+  width: 120px;
+  height: 15px;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  position: relative;
+    left: -10px;
+    bottom: -180px;
+}
+
+#pages span {
+  margin-left: -5px;
+}
+
+#pages span a {
+  background: #ced0cf;
+  padding: 10px 12px;
+  margin-right: 2px;
+  color: #000;
+}
+
+#pages span a:visited {
+  color: #000;
+}
+
+#pages span a:active {
+  background: #86AB25;
+  color: #fff;
+}
+
+#present div p {
+  margin: 10px 0 0 20px;
+  color: #fff;
+  font-size: 13px;
+  display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#present div p:first-child {
+  color: #86AB25;
+  font-size: 22px; 
+  font-weight: bold;
+}
+
+#present div p:nth-child(2) {
+  color: #fff;
+  font-size: 25px; 
+  font-weight: bold;
+}
+
+#present div p:nth-child(3) {
+  margin-top: 7px;
+}
+
+#present div p:last-child {
+  color: #86AB25;
+}
+
+#cars-menu {
+  background: #86AB25;
+  padding-top: 45px;
+  color: #fff;
+}
+
+#cars-menu #cars-menu-items {
+  width: 840px;
+  height: 320px;
+  text-align: justify;
+}
+
+#cars-menu-items:after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+}
+
+#cars-menu-items p.title {
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+#cars-menu-items p.title span:first-child {
+  font-weight: bold;
+}
+
+#cars-menu-items div {
+  width: 200px;
+  display: inline-block;
+}
+
+#cars-menu-items div img {
+  width: 200px;
+  height: 120px;
+}
+
+#cars-menu input.slider-arrow {
+  background: #86AB25;
+  width: 13px;
+  height: 13px;
+  margin: 0 15px 20px 0;
+  padding: 10px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+#cars-menu input.slider-arrow:last-child {
+  margin: 0 0 20px 15px;
+}
+
+#cars-menu-items div h1 span:first-child {
+  font-size: 15px;
+}
+
+#cars-menu-items div h1 span:last-child {
+  font-size: 13px;
+}
+
+#cars-menu-items div p span:first-child {
+  font-size: 12px;
+}
+
+#cars-menu-items div p span:last-child {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#cars-menu-items span.details {
+  background: #1e1e24;
+  width: 95px;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+       justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+       align-items: center;
+}
+
+#cars-menu-items span.details span {
+  height: 12px;
+  margin-right: 3px;
+  padding-right: 7px;
+  border-right: 1px solid #86AB25;
+}
+
+#cars-menu-items span.details input {	
+  background: url(images/switch_arrow.png) no-repeat center;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
